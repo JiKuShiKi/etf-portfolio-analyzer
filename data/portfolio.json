@@ -1,0 +1,29 @@
+{
+  "portfolio": [
+    {
+      "name": "iShares MSCI Emerging Markets IMI",
+      "ticker": "IS3N.DE",
+      "shares": 0.359686
+    },
+    {
+      "name": "iShares Core S&P 500",
+      "ticker": "SXR8.DE",
+      "shares": 0.023865
+    },
+    {
+      "name": "Amundi Core Stoxx Europe 600",
+      "ticker": "LYP6.DE",
+      "shares": 0.050437
+    },
+    {
+      "name": "iShares MSCI Europe ESG Screened",
+      "ticker": "SLMC.DE",
+      "shares": 1.408186
+    },
+    {
+      "name": "Xtrackers ATX",
+      "ticker": "XB4A.DE",
+      "shares": 0.117554
+    }
+  ]
+}
