@@ -10,3 +10,13 @@ def print_portfolio_table(results: list) -> None:
     total = round(sum(etf["total_value"] for etf in results), 2)
     print("-" * 70)
     print(f"{'Gesamtwert':<35} {'':>10} {'':>10} {total:>9.2f}€")
+
+def plot_portfolio_chart(results: list) -> None:
+    """shows a pie chart of portfolio distribution."""
+    labels = [etf["name"] for etf in results]
+    values = [etf["total_value"] for etf in results]
+    plt.figure(figsize=(8, 6))
+    plt.pie(values, labels=labels, autopct="%1.1f%%", startangle=90)
+    plt.title("Portfolio Verteilung")
+    plt.tight_layout()
+    plt.show()
